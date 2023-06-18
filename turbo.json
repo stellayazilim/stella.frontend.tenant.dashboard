@@ -9,6 +9,10 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "story:dev": {
+      "cache": false,
+      "persistent": true
     }
   }
 }
