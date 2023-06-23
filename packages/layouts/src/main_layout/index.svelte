@@ -1,6 +1,6 @@
 <script lang="ts">
   import NavItem from './nav_item.svelte';
-
+  import { BreadCrumb } from '@ui/sections';
   export let url: URL;
 </script>
 
@@ -30,7 +30,15 @@
   </header>
   <!-- #endregion-->
   <!--#region breadCrumb-->
-  <section class="border-t px-4 py-1 bg-blue-gray-300">breadCrumb</section>
+
+  <BreadCrumb
+    items={[
+      { text: 'dashboard', path: '/' },
+      { text: 'products', path: 'products' },
+      { text: 'pname', path: 'products/1' }
+    ]}
+  />
+
   <!-- #endregion-->
   <main>
     <slot />

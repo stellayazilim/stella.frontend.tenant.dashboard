@@ -1,0 +1,1 @@
+export { default as BreadCrumb } from "./src/breadcrumb/index.svelte"

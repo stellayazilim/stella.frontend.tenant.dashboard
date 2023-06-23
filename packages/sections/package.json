@@ -1,5 +1,5 @@
 {
-  "name": "@ui/layouts",
+  "name": "@ui/sections",
   "version": "0.0.0",
   "description": "Styles and  layouts for use in svelte websites",
   "type": "module",
@@ -13,8 +13,5 @@
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "svelte": "^3.9.2"
-  },
-  "dependencies": {
-    "@ui/sections": "workspace:^"
   }
 }
